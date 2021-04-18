@@ -1,0 +1,170 @@
+.home-title {
+    margin-left: 6.66vh;
+    font-size: 4.4vh;
+    margin-top: 6.66vh;
+
+}
+
+.header{
+    background-color: #ffff;
+    width: 173.33vh;
+    margin-left: 6.66vh;
+    margin-top: 3.33vh;
+    height: 16vh;
+    border-radius: 1.33vh;
+    box-shadow: 0 0.533vh 1.066vh 0 rgba(0, 0, 0, 0.2), 0 0.8vh 2.66vh 0 rgba(0, 0, 0, 0.19);
+}
+
+.searchBox {
+    border: none;
+    border-bottom: 0.266vh solid black;
+    margin-left: 6.66vh;
+    margin-top: 6vh;
+    height: 4vh;
+    font-size: 2.26vh;
+}
+
+.from{
+    margin-left: 17.33vh;
+    font-weight: 500;
+    font-size: 2.4vh;
+}
+
+.dateFrom{
+    border: none;
+    border-bottom: 0.266vh solid black;
+    margin-left: 1.33vh;
+    margin-top: 6vh;
+    height: 4vh;
+    font-size: 2.26vh;
+}
+
+::placeholder {
+    color: black;
+    font-size: 2.26vh;
+}
+
+input:focus{
+    outline: none;
+}
+
+.mainTable{
+    background-color: #ffff;
+    width: 173.33vh;
+    margin-left: 6.66vh;
+    margin-top: 3.33vh;
+    height: 53.33vh;
+    border-radius: 1.33vh;
+    box-shadow: 0 0.533vh 1.066vh 0 rgba(0, 0, 0, 0.2), 0 0.8vh 2.66vh 0 rgba(0, 0, 0, 0.19);
+    padding-top: 5.33vh;
+}
+
+.tableContainer{
+    margin-left: 13.33vh;
+    width: 80%;
+    height: 40vh;
+    border-radius: 1.33vh;
+    overflow-y: scroll;
+}
+
+table{
+    width: 100%;
+}
+
+th {
+    font-size: 2.13vh;
+    font-weight: none;
+    color: #1E5F74;
+    position: sticky;
+}
+
+td {
+    font-size: 2.5vh;
+    padding: 2vh;
+}
+
+.deleteIcon {
+    height: 2.66vh;
+    cursor: pointer;
+}
+
+.footer {
+    margin-top: -13.33vh;
+}
+
+.meetName {
+    border: none;
+    border-bottom: 0.266vh solid black;
+    margin-left: 33.33vh;
+    margin-top: 6vh;
+    height: 4vh;
+    width: 16vh;
+    font-size: 1.86vh;
+}
+
+.meetNumber {
+    border: none;
+    border-bottom: 0.266vh  solid black;
+    margin-left: 18.6vh;
+    margin-top: 6vh;
+    height: 4vh;
+    width: 5.33vh;
+    font-size: 1.86vh;
+}
+
+.meetDate{
+    border: none;
+    border-bottom: 0.266vh  solid black;
+    margin-left: 10.66vh;
+    margin-top: 6vh;
+    height: 4vh;
+    font-size: 2.26vh;
+}
+
+.meetStart{
+    border: none;
+    border-bottom: 0.266vh  solid black;
+    margin-left: 4vh;
+    margin-top: 6vh;
+    height: 4vh;
+    font-size: 1.86vh;
+}
+
+.meetEnd{
+    border: none;
+    border-bottom: 0.266vh  solid black;
+    margin-left: 9.33vh;
+    margin-top: 6vh;
+    height: 4vh;
+    font-size: 1.86vh;
+}
+
+.addBtn{
+    padding: 1vh;
+    width: 8vh;
+    background-color: #1E5F74;
+    border: none;
+    border-radius: 1.33vh;
+    margin-left: 6.66vh;
+    cursor: pointer;
+    color: #ffffff;
+}
+
+::-webkit-scrollbar {
+    width: 0.666vh;
+  }
+  
+  /* Track */
+::-webkit-scrollbar-track {
+    background: #ffffff00;
+  }
+  
+  /* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgb(197, 17, 101);
+  }
+  
+  /* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(10, 209, 159);
+  }

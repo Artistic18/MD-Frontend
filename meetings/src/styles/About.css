@@ -1,0 +1,25 @@
+.about-title {
+    margin-left: 6.66vh;
+    font-size: 4.4vh;
+    margin-top: 6.66vh;
+
+}
+
+.aboutContainer {
+    margin-left: 6.66vh;
+    margin-top: 1.33vh;
+    background-color: aquamarine;
+    width: 173.33vh;
+    height: 70.33vh;
+    border-radius: 1.33vh;
+    padding: 2vh;
+    font-size: 3.33vh;
+    font-weight: bold;
+    box-shadow: 0 0.533vh 1.066vh 0 rgba(0, 0, 0, 0.2), 0 0.8vh 2.66vh 0 rgba(0, 0, 0, 0.19);
+    justify-content: center;
+    align-items: center;
+}
+
+.about-text{
+    margin-top: 1.33vh;
+}

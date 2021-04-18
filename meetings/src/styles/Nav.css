@@ -1,0 +1,94 @@
+.navbar {
+    background-color: #1E5F74;
+    width: 9.33vh;
+    height: 100vh;
+    display: flex;
+    justify-content: start;
+}
+
+.bars {
+    margin-top: 1.33vh;
+    margin-left: 2.5vh;
+    font-size: 3.5vh;
+    background: none;
+}
+
+.nav-menu {
+    background-color: #1E5F74;
+    width: 30.66vh;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: -100%;
+    transition: 750ms;
+}
+
+.nav-menu.active {
+    left: 0;
+    transition: 350ms;
+}
+
+.nav-text {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 1.06vh 0vh 1.06vh 2.13vh;
+    list-style: none;
+    height: 8vh;
+}
+
+.nav-text a {
+    text-decoration: none;
+    color: #F2F2F2;
+    font-size: 2.4vh;
+    font-weight: 400;
+    line-height: 3.749vh;
+    display: flex;
+    align-items: center;
+    width: 95%;
+    height: 100%;
+    border-radius: 0.533vh;
+    padding: 2vh;
+}
+
+.nav-text a:hover {
+    background-color: #133B5C;
+}
+
+.nav-menu-items {
+    width: 100%;
+}
+
+.navbar-toggle {
+    background-color: #1E5F74;
+    width: 100%;
+    height: 10.66vh;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+span {
+    margin-left: 2.133vh;
+}
+
+.roll {
+    color: aliceblue;
+    font-size: 2.66vh;
+}
+#icon1 {
+    margin-top: 6.66vh;
+    margin-left: -1.5vh;
+    flex-direction: row-reverse;
+    position: fixed;
+    transform: scale(1);
+}
+
+#icon2 {
+    margin-top: 15vh;
+    margin-left: -1.5vh;
+    flex-direction: row-reverse;
+    position: fixed;
+}
